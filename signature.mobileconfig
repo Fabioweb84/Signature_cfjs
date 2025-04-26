@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.mail.managed</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>EmailAccountSignature</key>
+      <string>
+<![CDATA[
+<table cellpadding="0" cellspacing="0" border="0"
+       style="font-family:Arial,sans-serif;font-size:14px;color:#333;">
+  <tr>
+    <td valign="top" style="padding-right:10px;">
+      <a href="https://www.cfjs.fr/?utm_source=email_signature&utm_medium=email&utm_campaign=client"
+         target="_blank" style="text-decoration:none;">
+        <img
+          src="https://fabioweb84.github.io/Signature_cfjs/logo@1x.png"
+          srcset="https://fabioweb84.github.io/Signature_cfjs/logo@2x.png 2x"
+          width="150"
+          style="display:block;height:auto;border:0;"
+          alt="Logo CFJS">
+      </a>
+    </td>
+    <td valign="top" style="line-height:1.4;">
+      <strong>Centre de Formation Juridique Supérieure</strong><br>
+      Formation juridique<br>
+      📞 <a href="tel:+33635389448" style="color:#333;text-decoration:none;">
+           06 35 38 94 48
+         </a><br>
+      📧 <a href="mailto:contact@cfjs.fr?subject=Contact%20Signature&utm_source=email_signature"
+             style="color:#333;text-decoration:none;">
+           contact@cfjs.fr
+         </a><br>
+      🌐 <a href="https://www.cfjs.fr/?utm_source=email_signature&utm_medium=email&utm_campaign=client"
+             style="color:#333;text-decoration:none;">
+           www.cfjs.fr
+         </a><br><br>
+      <a href="https://calendly.com/cfjs"
+         target="_blank"
+         style="display:inline-block;padding:8px 16px;background:#b68c4b;
+                color:#fff;text-decoration:none;border-radius:4px;font-size:14px;">
+        Prendre RDV
+      </a>
+    </td>
+  </tr>
+</table>
+]]>
+      </string>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Signature CFJS</string>
+  <key>PayloadIdentifier</key>
+  <string>com.fabioweb84.signatureprofile</string>
+  <key>PayloadUUID</key>
+  <string>8E3F1C4A-9DCE-4C2F-9F94-5E4B2C2D2E3F</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
