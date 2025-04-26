@@ -3,6 +3,24 @@
   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <!-- Métadonnées du profil -->
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadIdentifier</key>
+  <string>com.fabioweb84.signatureprofile</string>
+  <key>PayloadUUID</key>
+  <string>8E3F1C4A-9DCE-4C2F-9F94-5E4B2C2D2E3F</string>
+  <key>PayloadDisplayName</key>
+  <string>Signature CFJS</string>
+  <key>PayloadDescription</key>
+  <string>Installe votre signature HTML dans Mail iOS.</string>
+  <key>PayloadOrganization</key>
+  <string>CFJS</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <!-- Contenu : signature Mail -->
   <key>PayloadContent</key>
   <array>
     <dict>
@@ -18,7 +36,7 @@
   <tr>
     <td valign="top" style="padding-right:10px;">
       <a href="https://www.cfjs.fr/?utm_source=email_signature&utm_medium=email&utm_campaign=client"
-         target="_blank" style="text-decoration:none;">
+         style="text-decoration:none;" target="_blank">
         <img
           src="https://fabioweb84.github.io/Signature_cfjs/logo@1x.png"
           srcset="https://fabioweb84.github.io/Signature_cfjs/logo@2x.png 2x"
@@ -30,21 +48,12 @@
     <td valign="top" style="line-height:1.4;">
       <strong>Centre de Formation Juridique Supérieure</strong><br>
       Formation juridique<br>
-      📞 <a href="tel:+33635389448" style="color:#333;text-decoration:none;">
-           06 35 38 94 48
-         </a><br>
-      📧 <a href="mailto:contact@cfjs.fr?subject=Contact%20Signature&utm_source=email_signature"
-             style="color:#333;text-decoration:none;">
-           contact@cfjs.fr
-         </a><br>
-      🌐 <a href="https://www.cfjs.fr/?utm_source=email_signature&utm_medium=email&utm_campaign=client"
-             style="color:#333;text-decoration:none;">
-           www.cfjs.fr
-         </a><br><br>
-      <a href="https://calendly.com/cfjs"
-         target="_blank"
-         style="display:inline-block;padding:8px 16px;background:#b68c4b;
-                color:#fff;text-decoration:none;border-radius:4px;font-size:14px;">
+      📞 <a href="tel:+33635389448" style="color:#333;text-decoration:none;">06 35 38 94 48</a><br>
+      📧 <a href="mailto:contact@cfjs.fr" style="color:#333;text-decoration:none;">contact@cfjs.fr</a><br>
+      🌐 <a href="https://www.cfjs.fr" style="color:#333;text-decoration:none;">www.cfjs.fr</a><br><br>
+      <a href="https://calendly.com/cfjs" style="display:inline-block;padding:8px 16px;
+         background:#b68c4b;color:#fff;text-decoration:none;border-radius:4px;
+         font-size:14px;" target="_blank">
         Prendre RDV
       </a>
     </td>
@@ -54,13 +63,5 @@
       </string>
     </dict>
   </array>
-  <key>PayloadDisplayName</key>
-  <string>Signature CFJS</string>
-  <key>PayloadIdentifier</key>
-  <string>com.fabioweb84.signatureprofile</string>
-  <key>PayloadUUID</key>
-  <string>8E3F1C4A-9DCE-4C2F-9F94-5E4B2C2D2E3F</string>
-  <key>PayloadVersion</key>
-  <integer>1</integer>
 </dict>
 </plist>
